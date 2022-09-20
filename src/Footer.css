@@ -1,0 +1,61 @@
+.social-container {
+    padding: 25px 50px;
+    align-items: center;
+    position: relative;
+    padding-left:32rem;
+}
+
+div>hr{
+margin-left:2rem ;
+margin-right: 2rem;
+}
+.onee{
+  margin-left: 29rem;
+  border-radius: 15px;
+  padding-top:2rem ;
+}
+
+  
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    padding-top: 1rem;
+    
+    
+   
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: #fb3958
+  }
+  .blur-fo{
+    bottom: 0;
+    right: 15rem;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: red;
+    }
+    .blur-ft{
+      bottom: 0;
+      right: 15rem;
+      width: 26rem;
+      height: 12rem;
+      filter: blur(200px);
+      background: rgba(255, 115,0);
+      }

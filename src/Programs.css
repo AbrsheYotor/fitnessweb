@@ -1,0 +1,51 @@
+.para{
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 3rem;
+    margin-left:30px;
+    margin-right: 30px;
+    
+    gap:1rem;
+    
+    
+}
+.cards>div{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    background-color:gainsboro;
+    
+}
+.cards>div:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+}
+.pi >h3,p{
+    margin-left: 25px;
+}
+.pi>img{
+    width: 2rem;
+    height: 1.5rem;
+    margin-left: 25px;
+    margin-top: 2rem;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+   gap:2rem; 
+   font-size: 1.2rem;
+   margin-bottom:30px ;
+}
